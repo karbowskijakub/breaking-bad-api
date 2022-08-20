@@ -18,7 +18,7 @@ const Navigation = ({setQuery}) => {
 
       <Wrapper>
         <Logo>
-          <StyledLogo to="/">
+          <StyledLogo to="/breaking-bad-api">
             <img src={require('../../../assets/icons/blackwhitelogo.png')} alt="logo" />
           </StyledLogo>
         </Logo>
@@ -29,15 +29,15 @@ const Navigation = ({setQuery}) => {
           
           <NavMenuSecond>
         <List>
-        <Li exact to="/">Home</Li>
-        <Li to="/characters">Characters</Li>
-    
+        <Li exact to="/breaking-bad-api">Home</Li>
+        <Li to="/breaking-bad-api/characters">Characters</Li>
+  
       </List>
       </NavMenuSecond>)};
 
         <NavMenu>
-          <StyledLink to="/characters">Characters</StyledLink>
-          <StyledLink exact to="/">Home</StyledLink>
+          <StyledLink to="/breaking-bad-api/characters">Characters</StyledLink>
+          <StyledLink exact to="/breaking-bad-api">Home</StyledLink>
 
            <SearchBar getQuery={(q) => setQuery(q)} ></SearchBar>
         </NavMenu> 

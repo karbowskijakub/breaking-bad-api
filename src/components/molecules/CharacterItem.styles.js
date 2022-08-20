@@ -9,6 +9,7 @@ export const CardInner = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
+
 `;
 
 export const Card = styled.div`
@@ -17,6 +18,7 @@ export const Card = styled.div`
   cursor: pointer;
   height: 500px;
   width: 400px;
+  
 
   &:last-child {
     margin-bottom: 5em;
@@ -55,6 +57,9 @@ export const Card = styled.div`
       margin-top: 17em;
     }
   }
+  @media screen and (max-width:768px){
+    width:250px;
+      }
 `;
 
 export const CardFront = styled.div`
@@ -68,6 +73,7 @@ export const CardFront = styled.div`
     object-fit: cover;
     border-radius: 1.5em;
     overflow: hidden;
+    
   }
 `;
 export const CardBack = styled.div`

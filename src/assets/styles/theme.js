@@ -10,6 +10,7 @@ export const theme = {
       l: '17px',
       m: '12px',
       s: '11px',
+      xs: '5px',
     },
   };
   

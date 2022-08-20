@@ -23,6 +23,12 @@ height:1100px;
 width:600px;
 background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
 margin-bottom:10em;
+@media screen and (max-width:768px) {
+    height:560px;
+width:300px;
+margin-top:10em;
+  }
+}
 `;
 
 export const Img = styled.div`
@@ -30,9 +36,10 @@ img{
     border-top: 2px solid ${({theme}) => theme.colors.white};
     position:absolute;
     width:100%;
-    height:700px;
+    height:100%;
     object-fit:cover;
     }
+
 `;
 export const StyledList = styled.ul`
 width:100%;
@@ -40,10 +47,19 @@ height:100%;
 list-style:none;
 margin-top:10.5em;
 
+@media screen and (max-width:768px) {
+    margin-top:3em;
+    margin-right:2em;
+  }
+}
 `;
 export const Li = styled.li`
 font-size:${({ theme }) => theme.fontSize.xl};
 line-height:2.5em;
+@media screen and (max-width:768px) {
+    font-size:${({ theme }) => theme.fontSize.s};
+ 
+
 
 `;
 
@@ -59,12 +75,17 @@ export const Informations = styled.div`
 border-top: 2px solid ${({theme}) => theme.colors.white};
 position:absolute;
 width:100%;
-height:410px;
+height:400px;
 background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
 bottom:0;
 display:flex;
 text-align:center;
 align-items:center;
+
+@media screen and (max-width:768px) {
+    height:130px;
+  }
+
 
 `;
 

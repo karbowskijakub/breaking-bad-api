@@ -21,6 +21,11 @@ margin-top:4px;
   justify-content:center;
   align-items: center;
   z-index:10;
+
+  @media screen and (max-width:768px) {
+
+    lef
+  }
 `;
 
 export const StyledLink = styled(NavLink)`

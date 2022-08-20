@@ -35,20 +35,20 @@ const Root = () => {
           <Routes>
           <Route 
           end
-          path="/" 
+          path="/breaking-bad-api" 
           element={<MainView items={items}/>} />
           <Route 
             end
-            path="/:id"
+            path="/breaking-bad-api/:id"
             element={<SingleCharacterView/>} />
             <Route
             end
-              path="/characters"
+              path="/breaking-bad-api/characters"
               element={<CharactersView items={items}/>}
             />
             <Route 
             end
-            path="/characters/:id"
+            path="/breaking-bad-api/characters/:id"
             element={<SingleCharacterView/>} />
             
             </Routes>
