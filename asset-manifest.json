@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/breaking-bad-api/static/css/main.725fb286.css",
-    "main.js": "/breaking-bad-api/static/js/main.bad314e2.js",
+    "main.js": "/breaking-bad-api/static/js/main.06580028.js",
     "static/media/Spinner.gif": "/breaking-bad-api/static/media/Spinner.fd4f65797d96e439c566.gif",
     "static/media/mainphoto.jpg": "/breaking-bad-api/static/media/mainphoto.2bce1484abaabbe47153.jpg",
     "index.html": "/breaking-bad-api/index.html",
     "main.725fb286.css.map": "/breaking-bad-api/static/css/main.725fb286.css.map",
-    "main.bad314e2.js.map": "/breaking-bad-api/static/js/main.bad314e2.js.map"
+    "main.06580028.js.map": "/breaking-bad-api/static/js/main.06580028.js.map"
   },
   "entrypoints": [
     "static/css/main.725fb286.css",
-    "static/js/main.bad314e2.js"
+    "static/js/main.06580028.js"
   ]
 }
