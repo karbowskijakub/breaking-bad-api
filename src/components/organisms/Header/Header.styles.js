@@ -50,8 +50,9 @@ position:absolute;
 background-color:transparent;
 top:0;left:0;
 z-index:2000;
-margin-top:5em;
-margin-left:2em;
+margin-top:2em;
+margin-left:4em;
+
 
 h1{
   margin-left:0.8em;
@@ -83,6 +84,7 @@ p{
 
 
 @media screen and (max-width:1200px) {
+  margin-top:12em;
   h1{
     
     font-size:${({ theme }) => theme.fontSize.xl};

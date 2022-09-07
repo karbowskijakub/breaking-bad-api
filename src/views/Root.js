@@ -8,9 +8,8 @@ import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CharactersView from 'templates/CharactersView/CharactersView';
 import MainView from 'templates/MainView';
-
 import SingleCharacterView from 'templates/SingleCharacterView/SingleCharacterView';
-
+import {GlobalStyle} from '../../src/assets/styles/globalStyles';
 import LoadingScreen from 'components/atoms/LoadingScreen/LoadingScreen';
 
 const Root = () => {
@@ -29,7 +28,9 @@ const Root = () => {
   return isLoading ? (<LoadingScreen/>
   ) :(
     <Router>
+      
       <ThemeProvider theme={theme}>
+      <GlobalStyle/>
         <Wrapper>
           <Template setQuery={setQuery}>
           <Routes>
